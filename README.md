@@ -1,2 +1,2 @@
-# Today-I-Learned
+# TIL
 오늘 배운 건 오늘 이해해야지
