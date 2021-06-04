@@ -1,3 +1,4 @@
+> [자바로 배우는 핵심 자료구조와 알고리즘](http://www.yes24.com/Product/Goods/61198657)을 참고해 정리한 내용입니다.
 # 4장 LinkedList 클래스
 ## 4.1 MyLinkedList 메서드 분류하기
 ```java
