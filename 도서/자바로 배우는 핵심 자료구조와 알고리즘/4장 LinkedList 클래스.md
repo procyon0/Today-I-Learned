@@ -124,12 +124,12 @@ public static void profileArrayListAddEnd() {
 ## 4.5 실습 5
 - **Profiler.java**: Profiler 클래스의 구현 코드를 담고 있다. 이번에 사용하기는 하지만, 어떻게 동작하는지 알 필요는 없다.
 - **ProfileListAdd.java**: 앞 장의 예제를 포함한 실습 4의 시작 코드를 담고 있다. 이 파일을 수정해 다른 몇 개의 메서드를 프로파일할 것이다.
-- 새로운 요소를ArrayList의 시작에 추가할 때의 시간 측정 그래프
+- 새로운 요소를 **ArrayList의 시작**에 추가할 때의 시간 측정 그래프
 <img src="../../img/profileArrayListAddBeginning.png" alt="새로운 요소를 ArrayList 시작에 추가할 때의 시간 그래프" style="zoom:25%;" />
-- 새로운 요소를 ArrayList의 끝에 추가할 때의 시간 측정 그래프
+- 새로운 요소를 **ArrayList의 끝**에 추가할 때의 시간 측정 그래프
 <img src="../../img/profileArrayListAddEnd.png" alt="새로운 요소를 ArrayList의 끝에 추가할 때의 시간 측정 그래프" style="zoom:25%;" />
-- 새로운 요소를LinkedLsit의 시작에 추가할 때의 시간 측정 그래프
+- 새로운 요소를 **LinkedLsit의 시작**에 추가할 때의 시간 측정 그래프
 <img src="../../img/profileLinkedListAddBeginning.png" alt="그래프 3" style="zoom:25%;" />
-- 새로운 요소를 LinkedList의 끝에 추가할 때의 시간 측정 그래프
+- 새로운 요소를 **LinkedList의 끝**에 추가할 때의 시간 측정 그래프
 <img src="../../img/profileLinkedListAddEnd.png" alt="그래프 3" style="zoom:25%;" />
 
