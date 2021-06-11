@@ -1,5 +1,5 @@
 > 이 문서는 [자바로 배우는 핵심 자료구조와 알고리즘](http://www.yes24.com/Product/Goods/61198657)을 읽고 정리한 내용입니다.
-<img src="../../img/javaDataStructure.jpg" alt="표지" style="zoom:25%;" />
+<img src="../../img/javaDataStructure.jpg" alt="표지" width="100px" />
 
 # 3장 ArrayList 클래스
 ## 3.1 MyArrayList 메서드 분류하기
