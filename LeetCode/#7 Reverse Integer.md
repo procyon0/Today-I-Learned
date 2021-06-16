@@ -15,34 +15,26 @@ Given a signed 32-bit integer `x`, return `x` *with its digits reversed*. If rev
 class Solution {
     public int reverse(int x) {
         boolean isMinus = x < 0;
-        System.out.println("x = " + x);
-        System.out.println("isMinus 1= " + isMinus);
         long lx = Math.abs((long)x);
-        System.out.println("lx = " + lx);
         Stack <Long> stack = new Stack<>();
 
         int oct = 1;
-
         while(lx != 0) {
             stack.push(lx % 10L);
             lx = lx / 10;
         }
 
         long reverse = 0;
-
         while (!stack.empty()) {
             reverse = reverse + (stack.pop() * oct);
             if(reverse > (long)Integer.MAX_VALUE) {
-
                 return 0;
             }
-
             oct *= 10;
         }
 
 
         if(isMinus) {
-            System.out.println("isMinus 2= " + isMinus);
             return -(int)reverse;
         }
         return (int)reverse;
